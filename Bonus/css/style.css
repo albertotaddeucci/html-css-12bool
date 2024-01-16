@@ -3,13 +3,17 @@ body{
 }
 
 .container{
-    margin-top: 100px;
+    padding-top: 100px;
+    max-width: 1000px;
+    height: 100vh;
+
+    
+
 }
 
-.row{
+.col-4 .row{
     height: 50px;
 }
-
 
 
 .bg-black{
@@ -17,7 +21,7 @@ body{
 }
 
 .bg-white{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .bg-red{
@@ -28,14 +32,15 @@ body{
     display: none;
 }
 
-.container .col-4:hover .open {
+.container .row:hover .open {
     display: none;
 }
 
-.container .col-4:hover .row.closed {
-    display: block;
-    /* background-color: green; */
+.container .row:hover .closed {
+    display: flex;
 }
+
+
 
 
 
