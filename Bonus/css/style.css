@@ -2,9 +2,15 @@ body{
     background-color: lightblue;
 }
 
-.row{
-    height: 30px;
+.container{
+    margin-top: 100px;
 }
+
+.row{
+    height: 50px;
+}
+
+
 
 .bg-black{
     background-color: black;
@@ -17,5 +23,21 @@ body{
 .bg-red{
     background-color: red;
 }
+
+.row.closed{
+    display: none;
+}
+
+.container .col-4:hover .open {
+    display: none;
+}
+
+.container .col-4:hover .row.closed {
+    display: block;
+    /* background-color: green; */
+}
+
+
+
 
 
