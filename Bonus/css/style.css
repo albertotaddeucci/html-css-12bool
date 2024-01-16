@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+}
+
+.row{
+    height: 30px;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+
