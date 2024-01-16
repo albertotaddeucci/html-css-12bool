@@ -32,6 +32,10 @@
 
 
 /* FLEX MODIFIERS */
+.flex{
+    display: flex;
+}
+
 .justify-start{
     justify-content: start;
 }
@@ -40,6 +44,13 @@
 }
 .justify-end{
     justify-content: end;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+.justify-between{
+    justify-content: space-between;
 }
 
 .align-start{
